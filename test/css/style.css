@@ -1,0 +1,264 @@
+*{
+padding: o;
+margin: o;
+box-sizing: border-box;
+
+}
+
+.home-page{
+height: 100vh;
+background-image: url(../images/chocolate-chocolate-bar-praline-food-wallpaper-preview.jpg);
+background-size: 100% 100%;
+
+}
+.home-page h1{
+
+    color:rgb(216, 178, 96) ;
+    background-color:  #0e0b097c;    
+text-align: center;
+    width: 50%;
+    padding: 30px;
+    align-items: baseline;
+    justify-content: flex-start;
+    position: absolute;
+    top: 0%;
+    right: 25%;
+    height: 30%;
+    
+    
+}
+.home-page h1:hover{
+    transition: 0.5s;
+    box-shadow: 2px 2px 10px  #f1995d7c ;
+    /* border-bottom: 2px; */
+    border-radius: 10%; 
+}
+
+.home-page p{
+    color:rgb(219,202,166) ;
+    /* background-color:  #0e0b097c;     */
+text-align: center;
+    width: 70%;
+    padding: 10px; 
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    top: 35%;
+    right: 15%;
+    height: 40%;
+    
+}
+.sec {
+    
+    
+    background-color:  #0e0b097c;    
+text-align: center;
+    width: 50%;
+    padding: 30px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    height: 40%;
+    
+    
+
+}
+
+.sec a{
+
+color:rgb(219,202,166) ;
+position: absolute;
+    top: 90%;
+    right: 20%;
+    height: 40%;
+    
+
+}
+
+
+
+
+
+
+header{
+ background-color:  #0e0b097c;    
+display: flex;
+justify-content: space-around;
+align-items: center;
+ padding: 10px 0px; 
+box-shadow: 2px 2px 10px rgb(156, 113, 94);
+position: fixed;
+top: 0px;
+width: 100%;
+
+}
+
+
+nav{
+
+
+    color: black;
+}
+ 
+nav a{
+padding: 8px 30px ;
+text-decoration: none;
+color:rgb(247, 183, 46)  ;
+
+}
+
+nav a:hover{
+border-bottom: 5px solid  rgb(231, 192, 107) ;
+color:rgb(255, 221, 147) ;
+
+
+}
+.logo{
+border:rgb(231, 192, 107) ;
+    color:  rgb(255, 221, 147);
+    
+}
+.logo:hover{
+font-size: xx-large;
+text-decoration: double;
+
+}
+
+footer{
+background-color: #0e0b097c;
+display: flex;
+height: 40px;
+justify-content: center;
+position: fixed;
+width: 100%;
+bottom: 0px;
+box-shadow: 2px 2px 10px  #f1995d7c ;
+
+
+}
+.social{
+    /* width: 50%; */
+    display: flex;
+    justify-content: space-around;
+    height: 60%;
+    
+    }
+
+
+
+
+.social div{
+    width: 50px;
+    height: 50px;
+ /* background-color: rgb(73, 38, 22);   */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.5s;
+    color: rgb(231, 192, 107) ;
+    
+    
+    
+    
+    }
+    
+    .social div :hover{
+        transition: 0.5s;
+        /* background-color: darkorchid; */
+        transform: rotate(360deg);
+        color: rgb(136, 84, 46);
+
+    }
+
+    .sec-3{
+        height: 50vh;
+        /* خاصية تحويل الصندوق لشبكي */
+        display: grid;
+        /* خاصية تقطيع الاب لاعمدة  */
+        grid-template-columns: repeat(2, 1fr);
+        /* خاصية تقطيع الاب لاسطر  */
+        grid-template-rows: repeat(4,1fr);
+        padding: 40px 20px;
+        grid-gap: 20px;
+        background-color:#a542007c;
+        
+        }
+         
+        .red{
+             background-color: #804d2b7c;  
+             text-align: center; 
+            padding: 30px 0px;
+            width: 100%;
+           border-radius: 10%; 
+           box-shadow: 2px 2px 10px #dbb195;
+          transition: 1s;
+          height: 80%;
+          grid-row: span 2;
+
+        }
+        .red h1{
+            text-align: center;
+            text-transform: capitalize;
+            font-size: xx-large;
+            text-decoration: double;
+            transform: translate(-50% -50%);
+            width: 100%;
+            height: 100%;
+            margin: 0px 0px ;
+            padding: 0px 20px ;
+             align-items: flex-start; 
+             justify-content: flex-start; 
+    
+    /* left: 20px; */
+             right: 40px; 
+        
+            
+            
+     
+        }
+        
+        
+        .green{
+            /* background-color: palevioletred; */
+            /* الامتداد كاعمدة  */
+            grid-row: span 1;
+            grid-column: span 1;
+            width: 60%;
+            align-items: center;
+            justify-content: flex-start;
+        
+        }
+        .green p{
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        /* padding: 30px 0px; */
+        width: 30%;
+        left: 10%;
+
+
+        }
+
+        .blue{
+        
+        
+          grid-row: span 4; 
+          grid-column: span 1;
+           
+            right: 2px; 
+           align-items: center;
+           
+     
+     
+     }
+     .blue img{
+          height: 100%;
+          width: 100%;
+          border-radius: 10%; 
+          box-shadow: 2px 2px 10px #804d2b;
+     }
+     
